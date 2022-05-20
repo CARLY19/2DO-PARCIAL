@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      {arrEstilos.map( estilo => <Card color={estilo} )}
+     {arrEstilos.map( estilo => (<Card color={estilo} />) )}
     </div>
   );
 }
